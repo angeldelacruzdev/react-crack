@@ -12,7 +12,12 @@
   width: calc(100% - 20px);
 }
 
-
-.custom-buttons{
+.custom-buttons {
   background-color: red;
+}
+
+.shopping-cart {
+  position: fixed;
+  right: 10px;
+  top: 0px;
 }
