@@ -30,16 +30,6 @@ const useShoppingPage = () => {
 
       const { [product.id]: toDelete, ...rest } = oldShoppingCart;
       return { ...rest };
-
-      // if (count === 0) {
-      //   const { [product.id]: toDelete, ...rest } = oldShoppingCart;
-      //   return rest;
-      // }
-
-      // return {
-      //   ...oldShoppingCart,
-      //   [product.id]: { ...product, count },
-      // };
     });
   };
 
