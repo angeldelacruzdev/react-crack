@@ -8,8 +8,7 @@ import {
   ProductCardHandlers,
 } from "../interfaces";
 
-import styles from "./../styles/styles.module.css";
-
+ 
 export const ProductContext = createContext({} as ProductContextProps);
 const { Provider } = ProductContext;
 
@@ -49,7 +48,7 @@ export const ProductCard = ({
         maxCount,
       }}
     >
-      <div style={style} className={`${styles.productCard} ${className}`}>
+      <div style={style} className={`${className}`}>
         {children({
           count: counter,
           isMaxCountReached,

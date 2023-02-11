@@ -5,8 +5,6 @@ import {
   ProductTitle,
 } from "../components";
 
-import "./../styles/custom-styles.css";
-
 import { products } from "../data/products";
 
 const product = products[0];
@@ -24,8 +22,9 @@ const ShoppingPage = () => {
           count: 6,
           maxCount: 10,
         }}
+        className=""
       >
-        {({ reset, isMaxCountReached, maxCount, increaseBy, count }) => (
+        {() => (
           <>
             <ProductImage />
             <ProductTitle />
