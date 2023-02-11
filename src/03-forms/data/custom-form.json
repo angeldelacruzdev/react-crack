@@ -1,0 +1,30 @@
+[
+  {
+    "type": "input",
+    "name": "firstName",
+    "placeholder": "Angel",
+    "label": "First Name",
+    "value": ""
+  },
+  {
+    "type": "input",
+    "name": "lastName",
+    "placeholder": "De La Cruz",
+    "label": "Last Name",
+    "value": ""
+  },
+  {
+    "type": "email",
+    "name": "email",
+    "placeholder": "angel@gmail.com",
+    "label": "Email",
+    "value": ""
+  },
+  {
+    "type": "select",
+    "name": "favoriteGame",
+    "label": "Favorite game",
+    "value": "",
+    "options": ["Super Smash", "Metal Gear", "Resident Evil"]
+  }
+]
