@@ -19,8 +19,6 @@ const useShoppingPage = () => {
   }) => {
     setShoppingCart((oldShoppingCart) => {
 
-      console.log({count})
-
       if (count === 0) {
         const { [product.id]: toDelete, ...rest } = oldShoppingCart;
         return rest;
